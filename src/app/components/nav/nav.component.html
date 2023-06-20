@@ -1,29 +1,21 @@
 <nav class="navbar">
-  <div class="container-fluid justify-content-start row">
+  <div class="container-fluid">
     <a class="navbar-brand me-0 col-3"><img src="../assets/img/logo-holo.png" alt="logo HOLO" class="img-fluid" width="70%"></a>
-    <form class="d-flex col-9 justify-content-between" role="search">
-      <span class="d-flex align-items-center input-field w-50">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      </span>
-      <span class="buttons d-flex align-items-center">
-        <span class="dropdown">
-          <a class="dropdown-toggle btn-entrar" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-regular fa-user fa-lg"></i> Entrar
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Minha conta</a></li>
-            <li><a class="dropdown-item" href="#">Meus pedidos</a></li>
-            <li><a class="dropdown-item" href="#">Orçamento</a></li>
-            <li><a class="dropdown-item" href="#">Categorias</a></li>
-            <li><a class="dropdown-item" href="#">Sair</a></li>
-          </ul>
-        </span>
-        <a class="ms-5 btn-cart position-relative" href="#" role="button" ><i class="fa-solid fa-bag-shopping fa-xl"></i>
-          <span class="position-absolute start-100 translate-middle badge rounded-pill bg-danger">
-           <small> 2</small>
-          </span></a>
-      </span>
-    </form>
+    <div class="nav-items">
+      <ul class="nav-list">
+        <li (click)="navegarMenu('hologramas')">
+          Hologramas
+        </li>
+        <li (click)="navegarMenu('usuarios')">
+          Gerenciar Usuários
+        </li>
+        <li (click)="navegarMenu('pedidos')">
+          Pedidos
+        </li>
+        <li (click)="navegarMenu('orcamentos')">
+          Orçamentos
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>

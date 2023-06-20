@@ -1,0 +1,25 @@
+<div class="container">
+  <h1 class="mt-5 title">
+    Hologramas
+  </h1>
+  <table class="table mt-5">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Titulo</th>
+        <th scope="col">Categoria</th>
+        <th scope="col">Estoque</th>
+        <th scope="col">Preço</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let holograma of hologramas">
+        <th scope="row"><img src="{{holograma.img}}" alt="Foto Holograma"></th>
+        <td class="align-middle">{{holograma.title}}</td>
+        <td class="align-middle">{{holograma.Categoria}}</td>
+        <td class="align-middle">{{holograma.Quantidade}}</td>
+        <td class="align-middle">{{holograma.price}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

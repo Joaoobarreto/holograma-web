@@ -1,7 +1,8 @@
 export class Holograma {
-  id: number | undefined;
+  id: string | undefined;
   title: string | undefined;
   img: string | undefined;
-  price: number | undefined
-
+  price: number | undefined;
+  Categoria: string | undefined;
+  Quantidade: number | undefined;
 }

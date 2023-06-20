@@ -3,25 +3,21 @@
   padding: 1% 10%;
 }
 
-.input-field {
-  background-color: #fff;
-  border-radius: 25px;
-  padding: 0 1%;
-}
-
-.input-field input {
-  border: none;
-}
-
-.input-field input:focus {
-  border: none;
-  box-shadow: none;
-}
-
-.btn-entrar, .btn-cart {
-  color: #fff;
+.nav-list {
   display: flex;
-  align-items: center;
-  gap: 5px;
-  text-decoration: none;
+  list-style: none;
+  font-size: large;
+  color: #fff;
+  margin: 0;
+}
+
+.nav-list li {
+  margin: 0 5%;
+  width: max-content;
+  white-space: nowrap;
+}
+
+.nav-list li:hover {
+  color: #ffffff66;
+  cursor: pointer;
 }

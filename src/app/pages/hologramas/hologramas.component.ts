@@ -3,11 +3,11 @@ import { data } from 'src/app/data';
 import { Holograma } from 'src/app/models/holograma.model';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-hologramas',
+  templateUrl: './hologramas.component.html',
+  styleUrls: ['./hologramas.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HologramasComponent implements OnInit {
   hologramas: Holograma[] = data.hologramas;
 
   constructor() { }
