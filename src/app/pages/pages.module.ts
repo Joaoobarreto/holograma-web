@@ -5,11 +5,12 @@ import { LoginComponent } from './login/login.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
+import { OrcamentosComponent } from './orcamentos/orcamentos.component';
 
 
 
 @NgModule({
-  declarations: [HologramasComponent, LoginComponent, UsuariosComponent, PedidosComponent],
+  declarations: [HologramasComponent, LoginComponent, UsuariosComponent, PedidosComponent, OrcamentosComponent],
   imports: [
     CommonModule,
     PagesRoutingModule

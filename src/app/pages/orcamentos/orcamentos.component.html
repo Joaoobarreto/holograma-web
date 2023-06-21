@@ -1,0 +1,23 @@
+<div class="container">
+  <h1 class="mt-5 title">
+    Orçamentos
+  </h1>
+  <table class="table mt-5">
+    <thead>
+      <tr>
+        <th scope="col">Cliente</th>
+        <th scope="col">Data</th>
+        <th scope="col">Arquivo</th>
+        <th scope="col">Prazo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let orcamento of orcamentos">
+        <td class="align-middle">{{orcamento.usuario?.nome}}</td>
+        <td class="align-middle">{{orcamento.data}}</td>
+        <td class="align-middle">{{orcamento.arquivo?.nome}}</td>
+        <td class="align-middle">{{orcamento.prazoResposta}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

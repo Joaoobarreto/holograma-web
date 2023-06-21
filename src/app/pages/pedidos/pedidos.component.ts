@@ -1,4 +1,6 @@
+import { Pedido } from './../../models/pedido.model';
 import { Component, OnInit } from '@angular/core';
+import { data } from 'src/app/data';
 
 @Component({
   selector: 'app-pedidos',
@@ -6,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pedidos.component.css']
 })
 export class PedidosComponent implements OnInit {
+  pedidos: Pedido[] = data.pedidos
 
   constructor() { }
 
