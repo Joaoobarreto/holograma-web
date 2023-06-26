@@ -1,7 +1,10 @@
 <div class="container">
-  <h1 class="mt-5 title">
-    Hologramas
-  </h1>
+  <div class="header d-flex align-items-end justify-content-between">
+    <h1 class="mt-5 title">
+      Hologramas
+    </h1>
+    <button type="button" class="btn btn-success">Novo</button>
+  </div>
   <table class="table mt-5">
     <thead>
       <tr>
@@ -13,8 +16,8 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let holograma of hologramas">
-        <th scope="row"><img src="{{holograma.img}}" alt="Foto Holograma"></th>
+      <tr *ngFor="let holograma of hologramas" class="table-line">
+        <td scope="row" class="img-holo"><img src="{{holograma.img}}" alt="Foto Holograma" class="img-fluid" width="50%"></td>
         <td class="align-middle">{{holograma.title}}</td>
         <td class="align-middle">{{holograma.Categoria}}</td>
         <td class="align-middle">{{holograma.Quantidade}}</td>

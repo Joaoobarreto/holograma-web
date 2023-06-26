@@ -1,0 +1,8 @@
+.img-holo {
+  width: 20%;
+}
+
+.table-line:hover {
+  background-color: #d7d4d4;
+  cursor: pointer;
+}

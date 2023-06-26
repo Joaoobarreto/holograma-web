@@ -13,7 +13,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let pedido of pedidos">
+      <tr *ngFor="let pedido of pedidos" class="table-line">
         <td class="align-middle">{{pedido.usuario?.nome}}</td>
         <td class="align-middle">{{pedido.data}}</td>
         <td class="align-middle">{{pedido.status}}</td>

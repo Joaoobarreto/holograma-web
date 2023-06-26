@@ -3,7 +3,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -11,7 +11,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -19,7 +19,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -27,7 +27,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -35,7 +35,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -43,7 +43,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -51,7 +51,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -59,7 +59,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -67,7 +67,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -75,7 +75,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -83,7 +83,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -91,7 +91,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -99,7 +99,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -107,7 +107,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -115,7 +115,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -123,7 +123,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -131,7 +131,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -139,7 +139,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -147,7 +147,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -155,7 +155,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -163,7 +163,7 @@ export const data = {
     {
       id: '1',
       title: 'Darth Vader',
-      img: '../../../assets/img/teste.jpg',
+      img: '../../../assets/img/Darth_Vader_Holo.png',
       price: 89.90,
       Categoria: 'Filmes',
       Quantidade: 10
@@ -249,7 +249,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -273,7 +273,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -297,7 +297,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -321,7 +321,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -345,7 +345,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -369,7 +369,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -393,7 +393,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -417,7 +417,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -441,7 +441,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10
@@ -465,7 +465,7 @@ export const data = {
         {
           id: '1',
           title: 'Darth Vader',
-          img: '../../../assets/img/teste.jpg',
+          img: '../../../assets/img/Darth_Vader_Holo.png',
           price: 89.90,
           Categoria: 'Filmes',
           Quantidade: 10

@@ -5,3 +5,8 @@ td {
 th {
   padding-bottom: 2% !important;
 }
+
+.table-line:hover {
+  background-color: #d7d4d4;
+  cursor: pointer;
+}

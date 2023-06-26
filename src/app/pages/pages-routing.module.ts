@@ -20,6 +20,10 @@ const routes: Routes = [
       component: HologramasComponent,
     },
     {
+      path: 'hologramas/editar/:id',
+      component: HologramasComponent,
+    },
+    {
       path: 'usuarios',
       component: UsuariosComponent,
     },
