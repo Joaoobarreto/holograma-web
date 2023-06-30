@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Usuario } from 'src/app/models/usuario.model';
-import { data } from 'src/app/data';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-usuarios',
@@ -8,10 +7,19 @@ import { data } from 'src/app/data';
   styleUrls: ['./usuarios.component.css']
 })
 export class UsuariosComponent implements OnInit {
-  usuarios: Usuario[] = data.usuarios;
-  constructor() { }
+  usuarios: any[] = [];
 
-  ngOnInit(): void {
+  constructor(private http: HttpClient) { }
+
+  ngOnInit() {
+    this.getUsuarios();
   }
 
+  getUsuarios() {
+    const url = 'https://holograma.azurewebsites.net/usuario';
+
+    this.http.get<any[]>(url).subscribe(data => {
+      this.usuarios = data;
+    });
+  }
 }

@@ -8,4 +8,5 @@ export class Pedido {
   previsaoEntrega: string | undefined;
   status: string | undefined;
   valor: number | undefined
+  usuarioId: number | undefined;
 }

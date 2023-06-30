@@ -17,11 +17,12 @@
     </thead>
     <tbody>
       <tr *ngFor="let holograma of hologramas" class="table-line">
+
         <td scope="row" class="img-holo"><img src="{{holograma.img}}" alt="Foto Holograma" class="img-fluid" width="50%"></td>
-        <td class="align-middle">{{holograma.title}}</td>
-        <td class="align-middle">{{holograma.Categoria}}</td>
-        <td class="align-middle">{{holograma.Quantidade}}</td>
-        <td class="align-middle">{{holograma.price}}</td>
+        <td class="align-middle">{{holograma.descricao}}</td>
+        <td class="align-middle">{{holograma.categoria}}</td>
+        <td class="align-middle">{{holograma.quantidade}}</td>
+        <td class="align-middle">{{holograma.valor}}</td>
       </tr>
     </tbody>
   </table>

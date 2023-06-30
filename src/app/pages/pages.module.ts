@@ -7,6 +7,7 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
 import { OrcamentosComponent } from './orcamentos/orcamentos.component';
 import { EditarHologramasComponent } from './editar-hologramas/editar-hologramas.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -14,7 +15,8 @@ import { EditarHologramasComponent } from './editar-hologramas/editar-hologramas
   declarations: [HologramasComponent, LoginComponent, UsuariosComponent, PedidosComponent, OrcamentosComponent, EditarHologramasComponent],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    HttpClientModule
   ]
 })
 export class PagesModule { }
