@@ -3,7 +3,7 @@
     <h1 class="mt-5 title">
       Hologramas
     </h1>
-    <button type="button" class="btn btn-success">Novo</button>
+    <button type="button" class="btn btn-success" (click)="editarHolograma(0)">Novo</button>
   </div>
   <table class="table mt-5">
     <thead>
@@ -16,7 +16,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let holograma of hologramas" class="table-line">
+      <tr *ngFor="let holograma of hologramas" class="table-line" (click)="editarHolograma(holograma.id)">
 
         <td scope="row" class="img-holo"><img src="{{holograma.img}}" alt="Foto Holograma" class="img-fluid" width="50%"></td>
         <td class="align-middle">{{holograma.descricao}}</td>

@@ -8,6 +8,7 @@ import { PedidosComponent } from './pedidos/pedidos.component';
 import { OrcamentosComponent } from './orcamentos/orcamentos.component';
 import { EditarHologramasComponent } from './editar-hologramas/editar-hologramas.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     CommonModule,
     PagesRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class PagesModule { }

@@ -5,6 +5,7 @@ import { LoginComponent } from './login/login.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
 import { OrcamentosComponent } from './orcamentos/orcamentos.component';
+import { EditarHologramasComponent } from './editar-hologramas/editar-hologramas.component';
 
 const routes: Routes = [
     {
@@ -21,7 +22,7 @@ const routes: Routes = [
     },
     {
       path: 'hologramas/editar/:id',
-      component: HologramasComponent,
+      component: EditarHologramasComponent,
     },
     {
       path: 'usuarios',

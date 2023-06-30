@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Holograma } from 'src/app/models/holograma.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-holograma',
@@ -10,10 +11,14 @@ import { Holograma } from 'src/app/models/holograma.model';
 export class HologramasComponent implements OnInit {
   hologramas: Holograma[] = [];
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit() {
     this.getHologramas();
+  }
+
+  editarHolograma(id: number | undefined) {
+    this.router.navigate([`hologramas/editar/${id}`])
   }
 
   gerarImagemParaHolograma (hologramas: Holograma[]) {
